@@ -1,0 +1,15 @@
+forget about the design. im focusing on the 
+functionality .
+create a header to prompt user to click to gen
+password . 
+onclick of that function , trigger the 
+passwordgenerator to function or work.
+in the passwordgenerator, im going to create an
+array and im going to create four variables.
+the password will be 8 characters long.
+so each variable will be assinged a maths.random
+function . 
+i will push the variables into the array . add the
+join method and charley take show the user like that
+on God .
+after that , ago take tutorials do am proper.

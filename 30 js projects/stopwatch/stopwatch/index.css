@@ -1,0 +1,106 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #fff;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Stopwatch Display */
+.display {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    font-weight: bold;
+}
+
+/* Time Units */
+.hour,
+.minutes,
+.seconds {
+    display: inline-block;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+/* Buttons Section */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Buttons Styling */
+button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button.start {
+    background: #28a745;
+    color: white;
+}
+
+button.start:hover {
+    background: #218838;
+}
+
+button.stop {
+    background: #dc3545;
+    color: white;
+}
+
+button.stop:hover {
+    background: #c82333;
+}
+
+button.reset {
+    background: #ffc107;
+    color: black;
+}
+
+button.reset:hover {
+    background: #e0a800;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .display {
+        font-size: 1.5rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+}
